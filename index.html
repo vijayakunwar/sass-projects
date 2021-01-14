@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>week 9 SASS Lab</title>
+  <link rel="stylesheet" href="scss/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <div class="branding"><h1>Vijaya Kunwar</h1></div>
+      <ul>
+        <li><a href="#jumbotron">Home</a></li>
+        <li><a href="#typography">Portfoliio</a></li>
+        
+        
+        <li><a href="#media">Blog</a></li>
+        
+        <li><a href="#forms">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="background jumbotron" id="jumbotron">
+  <div class="container">
+    <h1>Web Desinger + Developer + IT consultant</h1>
+    <p>Prolific, full stack web developer with a passion for metrics and beating former "best-yets". Protopyed 25 new product features thsi year as a freelancer.</p>
+    
+    <div class="hero-button">
+        
+        <button class="btn-cool"><a href="https://vijayakunwar.github.io/">View my Profile</a></button>
+        <button class="btn-hot"><a href="https://www.facebook.com/vijaya.kunwar.77/">Contact me</a></button>
+    </div>
+    
+</div>
+</section>
+
+
+<section id="typography">
+  <div class="container">
+    <h1>Portfolio</h1>
+
+    
+    <div class="two-column">
+      <p>Hard-working web developer with a flair for creating elegant solutions in the least amount of time. 
+        Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp 
+        for a local charity. Passionate about software architecture and cloud computing. Regular attendee of 
+        web developer meetups and hackathons</p>
+        <p>Prolific, full stack web developer with a passion for metrics and beating former "best-yets". 
+          Protopyed 25 new product features per year for Samvahatech.</p>
+          <p>Decreased rework by 22% and costs by 15%. Consistently receive high user experience scores 
+            for al web development projects, including a 55% increase for Samvahatech. 
+            Passionate about building world class web application.</p>
+    </div>
+
+
+    <ol class="media">
+      <li class="item">
+        <a href="https://wp.vijayak.sgedu.site/">
+          <img src="images/u3a.png" height ="90px"width="90px"alt="thumbnail">
+          <h2 class="head">Wordpress Custom Theme</h2>
+          <p>This theme is built using WP-Rig starter theme. It uses modern workflow for the devleopment that use 
+            Gulp for the automation and known as build process. Theme is devleoped as a component base so that the 
+            devleoper will have ease of implementation and development.
+          </p>
+        </a>
+      </li>
+      <li class="item">
+        <a href="https://vijayak.sgedu.site/">
+          <img src="images/a1.png" height ="90px"width="90px" alt="thumbnail">
+          <h2 class="head">WordPress Childe theme of Twenty Twenty </h2>
+          <p>This is the child theme of Twenty Twenty theme. Theme was deployed by maknig child so that theme update will 
+            not make affect on current implementation.
+          </p>
+        </a>
+      </li>
+      
+    </ol>    
+
+
+  </div>
+</section>
+
+
+
+<section class="bridge background">
+  <div class="container">
+    <h1 class="cto-meeting">Lets have a meeting</h1>
+    <div class="hero-button">
+        
+        <button class="btn-cool"><a href="https://vijayakunwar.github.io/">View my Profile</a></button>
+        <button class="btn-hot"><a href="https://www.facebook.com/vijaya.kunwar.77/">Contact me</a></button>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="media">
+  <div class="container">
+    <h1>Article</h1>
+    <ol class="media">
+      <li class="item">
+        <a href="#">
+          <img src="images/news.jpg" width="90" height="90" alt="thumbnail">
+          <h2 class="head">CMS is WordPress</h2>
+          <p>Atque suscipit, neque quisquam laboriosam enim officiis, nam nemo cupiditate ipsam eveniet id eaque optio facere! Maxime accusamus repellendus nisi veniam saepe explicabo, voluptatum quod obcaecati, possimus quis expedita? Dignissimos.</p>
+        </a>
+      </li>
+      <li class="item">
+        <a href="#">
+          <img src="images/news.jpg" width="90" height="90" alt="thumbnail">
+          <h2 class="head">WordPress is CMS</h2>
+          <p>Magnam repellat laudantium, aspernatur fugiat quam deleniti atque in voluptas, aliquam corporis, amet temporibus modi! Exercitationem voluptates quisquam, enim eos autem quidem expedita quod, quasi eum deleniti neque nostrum possimus.</p>
+        </a>
+      </li>
+      <li class="item">
+        <a href="#">
+          <img src="images/news.jpg" width="90" height="90" alt="thumbnail">
+          <h2 class="head">If no WordPres then there is no CMS</h2>
+          <p>Ea obcaecati a deleniti autem. Nihil minima, laudantium voluptas quod inventore iure, beatae quis aspernatur culpa qui minus esse harum odit soluta! Quaerat magnam asperiores repellendus voluptas similique est excepturi.</p>
+        </a>
+      </li>
+    </ol>      
+  </div>
+</section>
+
+
+
+<section id="forms">
+  <div class="container">
+    <h1>Contact me</h1>
+    <form>
+      <div class="form-group">
+        <label for="inputName">Name</label>
+        <input class="form-control" type="text" id="inputName" 
+          placeholder="Name">
+      </div>
+    <div class="form-group">
+      <label for="inputEmail">Email</label>
+      <input class="form-control" type="email" id="inputEmail" 
+        placeholder="Email">
+    </div>
+    <div class="form-group">
+      <label for="selectSite">Site</label>
+      <select class="form-control" id="selectSite">
+        <option>Choose...</option>
+        <option>GitHub.com</option>
+        <option>Google.com</option>
+        <option>Stackoverflow.com</option>
+      </select>  
+    </div>
+    <div class="checkbox">
+      <label><input id="inputAddList" type="checkbox">Add me to e-mail blast</label>
+    </div>
+    <div class="form-group">
+      <label for="inputComments">Comments</label>
+      <textarea class="form-control" id="inputComments"></textarea> 
+    </div>
+    <input class="btn btn-default pull-right" type="submit" value="submit">
+    </form>
+  </div>
+</section>
+        
+<footer>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#jumbotron">Home</a></li>
+        <li><a href="#typography">Portfoliio</a></li>
+        
+        
+        <li><a href="#media">Blog</a></li>
+        
+        <li><a href="#forms">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>     
+
+  <script src="js/script.js"></script>
+</body>
+</html>
